@@ -562,7 +562,7 @@ Manila Config parameters
     Password to use for the OpenStack File Share service (manila) to authenticate with the Identity service.
 
 **CONFIG_MANILA_BACKEND**
-    Backend for the OpenStack File Share service (manila); valid options are: generic or netapp. ['generic', 'netapp']
+    Backend for the OpenStack File Share service (manila); valid options are: generic, netapp, glusternative, or glusternfs. ['generic', 'netapp', 'glusternative', 'glusternfs']
 
 Manila NetApp configuration
 ---------------------------
